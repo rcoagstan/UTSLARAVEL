@@ -21,7 +21,7 @@
 	<meta name="twitter:image" content="">
 	<meta name="twitter:card" content="">
 
-	<title>Callie HTML Template</title>
+	<title>Blog</title>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CMuli:400,700" rel="stylesheet">
@@ -69,7 +69,6 @@
 
 					<!-- search & aside toggle -->
 					<div class="nav-btns">
-						<button class="aside-btn"><i class="fa fa-bars"></i></button>
 						<button class="search-btn"><i class="fa fa-search"></i></button>
 						<div id="nav-search">
 							<form action="{{route('blog.cari')}}" method="get">
@@ -90,7 +89,7 @@
 				<div class="container">
 					<!-- nav -->
 					<ul class="nav-menu">
-						<li><a href="{{ url('') }}">Beranda</a></li>
+						<li><a href="{{ url('') }}">HOME</a></li>
 						<li class="has-dropdown">
 							<a href="index.html">CATEGORY</a>
 							<div class="dropdown">
@@ -105,8 +104,6 @@
 						</li>
 				
 						<li><a href="{{ route('blog.list') }}">List Post</a></li>
-						<li><a href="#">Health</a></li>
-						<li><a href="#">Travel</a></li>
 					</ul>
 					<!-- /nav -->
 				</div>
